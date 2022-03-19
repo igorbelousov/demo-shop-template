@@ -1,2 +1,2 @@
 # html-template-starter
-Starter for template. included html, js, sass, css
+Starter template for demo shop. included html, js, sass

@@ -2,20 +2,48 @@
   display: flex
   font-size: 0
 
-$primaryColor: #666
-$secondaryColor: #000000
-$textColor: #fff
+$white: #fff
+
+$baseColor: #2A2A2A
+$akcentColor: #F9A43F
+$gradient: linear-gradient(184.53deg, #F9A43F 5.27%, #FB791B 91.78%)
+$cartGradient: linear-gradient(90deg, #BBA66F 0%, #ECDEB2 39.1%, #ECDEB2 54.66%, #A8996A 98.96%) 
+$darkBlue: linear-gradient(179.89deg, #434D5A 0.09%, #131416 99.91%)
+$darkRed: linear-gradient(180deg, #4C141A 0%, #210709 100%)  
 
 $minWidth: 320px
 
-$mw: 1170
+$mw: 1600
 $md1: $mw +18
 $md2: 992.98
 $md3: 767.98
 $md4: 479.98
 
 .wrapper
+  
 
 .container
-  max-width: 1080px
+  max-width: 1110px
   margin: 0 auto
+
+@mixin shadowCardActive()
+  background: #C4C4C40
+  box-shadow: 5px 6px 15px rgba(249, 164, 63, 0.19)
+
+@mixin shadowCard()
+  background: #C4C4C4
+  box-shadow: 5px 6px 16px rgba(42, 42, 42, 0.16)
+
+@mixin shadowActive()
+  background: #C4C4C4
+  box-shadow: 5px 6px 15px rgba(251, 121, 27, 0.63)
+
+body
+  background: #E5E5E5
+  color: $baseColor
+  font-family: 'Trebuchet MS'
+  font-style: normal
+  font-weight: 400
+  font-size: 16px
+  line-height: 19px
+  
