@@ -1,4 +1,74 @@
 .header{
     background: $baseColor;
     color: $white;
+    padding: 22px 0;
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+    
+
 }
+
+.logo{
+    border-radius: 9px;
+}
+.search{
+    width: 475px;
+    background: #FBFAFA;
+    border: 1px solid #F2F2F2;
+    border-radius: 9px;
+    margin-left: 33px;
+    padding:0 12px;
+    display: flex;
+    align-items: center;
+    input{
+        width: 425px;
+        line-height: 37px;
+        font-size: 20px;
+        margin-right: 5px;
+    }
+    button{
+        font-size: 24px;
+    }
+}
+
+.header__phone{
+    margin-left: 67px;
+    height: 28px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    span{
+        font-size: 28px;
+        margin-right: 8px;
+    }
+}
+.profile{
+    font-size: 28px;
+    margin-left: 62px;
+}
+.cart{
+    font-size: 32px;
+    margin-left: 12px;
+    position: relative;
+
+    &__badget{
+        position: absolute;
+        top:-5px;
+        right:-5px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 19px;
+        background: $akcentColor;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        text-align: center;
+        color: $baseColor;
+    }
+}
+
