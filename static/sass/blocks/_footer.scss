@@ -1,4 +1,38 @@
 .footer{
+    margin-top: 85px;
     background: $baseColor;
     color: $white;
+
+    p{
+        display: block;
+        margin-top: 18px;
+    }
+}
+
+.footer__menu{
+    padding: 59px 0;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+
+
+    h3{
+        font-weight: 700;
+        font-size: 19px;
+        line-height: 22px;
+        margin-bottom: 18px;
+    }
+
+    ul{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        a{
+            color: $white;
+            &:hover{
+                color: $akcentColor;
+            }
+        }
+    }
+
 }

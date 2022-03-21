@@ -103,3 +103,16 @@
 .icon-youtube:before {
   content: "\ea9d";
 }
+
+
+.btn-border{
+  border: 2px solid $akcentColor;
+  box-sizing: border-box;
+  border-radius: 9px;
+  padding: 15px 38px;
+  background: none;
+  color: $akcentColor;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 22px;
+}

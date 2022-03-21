@@ -1,0 +1,20 @@
+.rounded{
+    display: block;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    img{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .overlay{
+        position: absolute;
+        bottom: 0;
+        z-index: 10;
+        color: $white;
+        width: 100%;
+        padding: 12px 19px;
+        background: $baseColor;
+    }
+    
+}

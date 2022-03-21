@@ -48,11 +48,17 @@
 .profile{
     font-size: 28px;
     margin-left: 62px;
+    &:hover{
+        color: $akcentColor;
+    }
 }
 .cart{
     font-size: 32px;
     margin-left: 12px;
     position: relative;
+    &:hover{
+        color: $akcentColor;
+    }
 
     &__badget{
         position: absolute;
@@ -69,6 +75,54 @@
         border-radius: 50%;
         text-align: center;
         color: $baseColor;
+    }
+}
+
+.menu{
+    position: absolute;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    top: 99px;
+    color: $baseColor;
+    cursor: pointer;
+    span{
+        margin-right: 14px;
+    }
+    &:hover{
+        color: $akcentColor;
+    }
+}
+
+
+.top__menu{
+    display: flex;
+    align-items: center;
+    padding: 17px 18px;
+    justify-content: left;
+    ul{
+        margin-left: 162px;
+        display: flex;
+        align-items: center;
+        list-style: none;
+        li{
+            margin-right:64px;
+            &:last-child{
+                margin-right: none;
+            }
+            a{
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 19px;
+                color: $baseColor;
+                &:hover{
+                    color: $akcentColor;
+                }
+            }
+            
+        }
     }
 }
 
