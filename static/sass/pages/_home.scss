@@ -4,12 +4,12 @@
     background: lightgrey;
 }
 
-.home__catalog{
+.home__section{
     margin-top: 45px;
    
 }
 
-.home__section{
+.home__section-title{
     font-weight: 700;
     font-size: 32px;
     line-height: 37px;
@@ -25,4 +25,23 @@
         grid-column: 1 / span 2;
     }
     
+}
+
+.mero{
+    display: grid;
+    grid-template: 1fr/ 1fr 1fr;
+    gap: 30px;
+    
+}
+
+.more{
+    display: flex;
+    justify-content: center;
+    margin-top: 38px;
+}
+
+.more__info{
+    display: grid;
+    grid-template: 1fr/ 1fr 1fr 1fr;
+    gap: 30px;
 }

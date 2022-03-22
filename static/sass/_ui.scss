@@ -116,3 +116,35 @@
   font-size: 19px;
   line-height: 22px;
 }
+
+.btn{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  background: $gradient;
+  padding: 6px 28px 9px;
+  border-radius: 9px;
+  color: $white;
+  display: flex;
+  align-items: center;
+  
+  &-big{
+    @extend .btn;
+    padding: 22px 79px;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 27px;
+
+  }
+  span{
+    margin-left: 7px;
+  }
+  &-b{
+    @extend .btn;
+    background: none;
+    border: 2px solid $akcentColor;
+    color: $akcentColor;
+    padding: 6px 20px 9px;
+    font-size: 14px;
+  }
+}
